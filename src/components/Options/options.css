@@ -1,0 +1,20 @@
+.container-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: .6rem;
+    margin-top: 3.5rem;
+}
+
+.icon-options {
+    fill: #06436B;
+}
+
+@media (min-width: 600px) {
+    .container-options {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
